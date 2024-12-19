@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EGY KEEP </title>
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="bg-dark">
+
+    <div class="myToast">
+        <p class="text-light fw-bold">Can Not Added</p>
+    </div>
+
+
+
+    <FOrm id="settingFrom" action="#">
+        <section class="mt-5 text-center">
+            <div class="f1 shadow p-3 border border-1 rounded-2 border-success">
+                <div class="row p-1">
+                    <div class="text-light d-flex col-12">
+                        <i class="fa-solid fa-link pt-1 pe-2" style="color: #ffffff;"></i>
+                        <input type="text"
+                            class="http  w-100 text-bg-secondary rounded-end-1 rounded-start-2 p-1 border "
+                            placeholder="https://someurl.com" id="exampleInputlink">
+                    </div>
+
+                    <div class="text-light d-flex col-12 pt-4">
+                        <i class="fa-solid fa-pen pt-1 pe-2" style="color: #ffffff;"></i>
+                        <input type="text"
+                            class="http w-100 text-bg-secondary rounded-end-1 rounded-start-2  p-1 border "
+                            placeholder="Website Name " id="exampleInputname">
+                    </div>
+
+                    <div class="text-light col-12 pt-4">
+                        <textarea name="desc" id="DesInfo" class="text-bg-secondary w-100" placeholder="Description"
+                            rows="3"></textarea>
+                    </div>
+
+                    <div class="col-12 pt-4">
+                        <button type="submit" class="btn text-light  w-100"
+                            id="btn-done">CREATE</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="fw-bold mt-3 text-light fs-3 text-uppercase"> links </p>
+            </div>
+        </section>
+    </FOrm>
+
+
+
+    <div class="f2 ms-4 row" id="boxView">
+
+
+    </div>
+
+
+
+    <script src="./fontawesome-free-6.6.0-web/js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
